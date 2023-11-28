@@ -9,6 +9,8 @@ test("Login Sample", async function({page}){
 
     await page.locator("//button[@id='submit']").click()
 
+    console.log("Check URL")
+
     await expect(page).toHaveURL(/logged-in-successfully/)
 
     console.log("Page successfully logged in and verified")
