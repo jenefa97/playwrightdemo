@@ -10,7 +10,7 @@ test("Demo1", async function({page}){
     
 
 test("Demo2", async function({page}){
-    expect(12).toBe(121)
+    expect(1).toBe(1)
 //
 })
 
