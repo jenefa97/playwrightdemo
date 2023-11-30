@@ -31,4 +31,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npx playwright install
+      if: always()
     - run: npx playwright test
